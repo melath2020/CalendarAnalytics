@@ -54,11 +54,11 @@ src/
 Installation & Setup
 1. Clone the repository
 git clone <your-repo-url>
+cd filename
 
-cd calgraph-dashboard
 2. Install dependencies
-
 npm install
+
 3. Start the application
 npm start
 
