@@ -1,9 +1,9 @@
-// src/components/DataModal.jsx
+
 import Modal from 'react-modal';
 import { useSelector } from 'react-redux';
 import BarChartView from './BarChartView';
 
-Modal.setAppElement('#root'); // Required for accessibility
+Modal.setAppElement('#root'); 
 
 const DataModal = ({ isOpen, closeModal }) => {
   const { selectedDate, selectedData } = useSelector((state) => state.calendar);
