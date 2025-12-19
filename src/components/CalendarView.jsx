@@ -44,12 +44,6 @@ const CalendarView = ({ openModal }) => {
         }}
         onSelectSlot={(slotInfo) => handleSelect(slotInfo.start)}
         onSelectEvent={(event) => handleSelect(event.start)}
-        // onSelectSlot={(slotInfo) => {
-        //   const key = formatDateKey(slotInfo.start);
-        //   dispatch(setSelectedDate({ date: key }));
-
-        //   openModal();
-        // }}
       />
     </div>
   );
