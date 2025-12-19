@@ -47,7 +47,7 @@ src/
 ├── data/
 │ └── dummyData.json
 ├── utils/
-│ └── dateHelpers.js
+│ └── dateUtils.js
 ├── App.jsx
 └── index.js
 
